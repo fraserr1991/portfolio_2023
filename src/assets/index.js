@@ -17,14 +17,20 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import java from "./tech/java.svg";
 import mongodb from "./tech/mongodb.png";
+import mysql from "./tech/mysql.svg";
+import postgresql from "./tech/postgresql.svg";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import bootstrap from "./tech/bootstrap.svg";
+import firebase from "./tech/firebase.svg";
+import flask from "./tech/flask.svg";
+import jupyter from "./tech/jupyter.svg"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -53,13 +59,20 @@ export {
   git,
   html,
   javascript,
+  java,
   mongodb,
+  mysql,
+  postgresql,
   nodejs,
   reactjs,
   redux,
   tailwind,
   typescript,
   threejs,
+  bootstrap,
+  firebase,
+  flask,
+  jupyter,
   meta,
   shopify,
   starbucks,

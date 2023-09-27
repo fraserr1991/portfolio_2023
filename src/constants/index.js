@@ -4,6 +4,7 @@ import {
     creator,
     web,
     javascript,
+    java,
     typescript,
     html,
     css,
@@ -12,6 +13,7 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    mysql,
     git,
     figma,
     docker,
@@ -23,6 +25,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    bootstrap,
+    firebase,
+    flask,
+    jupyter,
+    postgresql,
   } from "../assets";
   
   export const navLinks = [
@@ -52,11 +59,7 @@ import {
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    }
   ];
   
   const technologies = [
@@ -73,16 +76,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Java",
+      icon: java,
     },
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -97,6 +96,10 @@ import {
       icon: mongodb,
     },
     {
+      name: "PostgreSQL",
+      icon: postgresql,
+    },
+    {
       name: "Three JS",
       icon: threejs,
     },
@@ -105,13 +108,21 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Bootstrap CSS",
+      icon: bootstrap,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Firebase",
+      icon: firebase,
     },
+    // {
+    //   name: "Flask",
+    //   icon: flask,
+    // },
+    // {
+    //   name: "Jupyter",
+    //   icon: jupyter,
+    // }
   ];
   
   const experiences = [
