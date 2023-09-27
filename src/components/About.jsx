@@ -1,7 +1,6 @@
 import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
-
 import { styles } from '../styles'
 import { services } from '../constants'
 import { fadeIn, textVariant} from '../utils/motion'
@@ -41,11 +40,13 @@ const About = () => {
         I'm a new software developer with experience in Javascript, Java, Python. I'm an enthusastic learner and enjoy collaborating with others to create projects.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      {/* ****** disabled ServiceCard for website preformance */}
+
+      {/* <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => ( 
         <ServiceCard key={service.title} index={index} {...service}/>
       ))}
-      </div>
+      </div> */}
     </>
   )
 }

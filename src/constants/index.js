@@ -84,10 +84,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
     },
@@ -100,16 +96,8 @@ import {
       icon: postgresql,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "Bootstrap CSS",
-      icon: bootstrap,
     },
     {
       name: "Firebase",
