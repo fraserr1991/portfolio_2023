@@ -24,6 +24,7 @@ import {
     carrent,
     jobit,
     tripguide,
+    coffee_equipment_shop_backend,
     threejs,
     bootstrap,
     firebase,
@@ -197,25 +198,33 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Coffee equipment shop backend",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows a company to track and manage a variety of business metrics. ",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "HTML",
+          color: "blue-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
           color: "pink-text-gradient",
         },
+        {
+          name: "Flask",
+          color: "green-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: coffee_equipment_shop_backend,
+      source_code_link: "https://github.com/fraserr1991/Week_05_Project",
     },
     {
       name: "Job IT",
